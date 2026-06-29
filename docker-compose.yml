@@ -1,0 +1,8 @@
+services:
+  charges-api:
+    build: .
+    container_name: charges-api
+    ports:
+      - "8080:8080"
+    environment:
+      - STRIPE_API_KEY=sk_live_v21_TAL_W7kQ9rR2bX4mE8nP6vY3aJ5sZ8cN1uK0
